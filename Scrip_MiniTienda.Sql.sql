@@ -97,6 +97,9 @@ begin
   delete from tbl_categorias where cat_id = v_id;
 end// 
 DELIMITER ;
+<<<<<<< HEAD
+-- Usuarios
+=======
 -- Usuarios**********************************************
 -- insertar
  DELIMITER // 
@@ -148,3 +151,4 @@ BEGIN
     WHERE usu_id = v_id;
 END//
 DELIMITER ;
+>>>>>>> d57e66de8acd033f53e6de22f4f3439fc972829d
